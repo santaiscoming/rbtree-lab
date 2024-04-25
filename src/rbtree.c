@@ -88,7 +88,7 @@ node_t *rbtree_insert(rbtree *t, const key_t key) {
   return new_node;
 }
 
-/* use double pointer and double pointer */
+/* use double pointer and prev variable */
 // node_t *rbtree_insert(rbtree *t, const key_t key) {
 //   if (!t) return NULL;
 
